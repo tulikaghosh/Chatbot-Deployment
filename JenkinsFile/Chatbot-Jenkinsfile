@@ -10,7 +10,7 @@ pipeline{
     stages {
         stage('Checkout from Git'){
             steps{
-                git branch: 'main', url: 'https://github.com/tulikaghosh/Chatbot-Deployment.git'
+                git branch: 'main', url: 'https://github.com/tulikaghosh/Chatbot-Deployment'
             }
         }
         stage('Install Dependencies') {
